@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+<!-- The arm mover node -->
+  <node name="add_markers" type="add_markers" pkg="add_markers" output="screen">
+    <rosparam>
+      pick_up_x: 3
+      pick_up_y: -3
+      pick_up_z: 1
+      drop_off_x: -3
+      drop_off_y: 2
+      drop_off_z: 0
+    </rosparam>
+  </node>
+</launch>
